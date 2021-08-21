@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- <script Axio Link</script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="signup">
+    <h2 id="signup_Heading">Create an account</h2>
+    <form onSubmit="return false">
+        <div class="form-group" id="user_Inputs">
+            <label id="user_inputs_Labels" for="Name">Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Enter Name">
+        </div>
+        <div class="form-group" id="user_Inputs">
+            <label id="user_inputs_Labels" for="email">Email address</label>
+            <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group" id="user_Inputs">
+            <label id="user_inputs_Labels" for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group" id="user_Inputs">
+            <label id="user_inputs_Labels" for="Address">Address</label>
+            <input type="text" class="form-control" id="Address" placeholder="Enter Address">
+        </div>
+        <div class="form-group" id="user_Inputs">
+            <label id="user_inputs_Labels" for="Contact">Contact</label>
+            <input type="text" class="form-control" id="Contact" placeholder="Enter Contact">
+        </div>
+        <button id="login_signup_Button" type="submit" class="btn btn-primary" onClick="onSignup()">Signup</button>
+        <button id="login_signup_Link" type="button" class="btn btn-link"><a id="link" href="index.html">I HAVE AN
+                ACCOUNT</a></button>
+        <div class="alert alert-dark" role="alert" id="message"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>

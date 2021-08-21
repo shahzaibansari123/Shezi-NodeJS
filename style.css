@@ -1,0 +1,1105 @@
+#login{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: #373B44; 
+    background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+    background: linear-gradient(to right, #223a61, #373B44); 
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#signup{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: #373B44; 
+    background: -webkit-linear-gradient(to right, #223a61, #373B44);  
+    background: linear-gradient(to right, #223a61, #373B44); 
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#login_Heading{
+    font-size: 40px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#signup_Heading{
+    font-size: 40px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#user_Inputs{
+    width: 50%;
+    margin: 0% 25%;
+    padding: 0.5%;
+}
+
+#user_inputs_Labels{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(214, 210, 210) !important;
+}
+ 
+#login_signup_Button{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    margin-left:26%;
+    width: 100px;
+}
+
+#login_signup_Link{
+    color: white;
+    width: 300px;
+    margin-left: -35px;
+}
+
+#login_signup_Link :hover{
+    color: white;
+}
+
+#link{
+    color: white;
+}
+
+#message{
+    width: 49%;
+    margin-left: 25.5%;
+    color:white;
+    background-color: rgba(151, 151, 155, 0.678);
+    margin-top: 1%;
+}
+
+#dashboard{
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #223a61, #373B44);
+    background: linear-gradient(to right, #223a61, #373B44); 
+}
+
+#dashboard_Heading{
+    font-size: 40px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bolder;
+    margin-top:  20px;
+}
+
+#profile_Button{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    margin-top:-1%;
+    width: 50px;
+}
+
+#detail{
+    color: white;
+}
+
+#dashboard_Subheadings{
+    font-size: 40px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bolder;
+}
+
+#cards_Inputs{
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+#create_show_Button{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    width: 100px;
+}
+
+#create_show_Buttonpbc{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    width: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 10px;
+}
+
+#create_show_Buttonpvt{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    width: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 10px;
+}
+
+#create_show_Buttonrld{
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    width: 50px;
+    border-radius: 100px;
+}
+
+
+#type{
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(10, 7, 51, 0.973);
+    width: 100px;
+}
+
+
+#buttondisplay{
+    display: flex;
+}
+
+/* #show_Cards{
+} */
+
+#list{
+
+    margin-left: 2% ;
+}
+
+li{
+    display: inline-flex;
+    margin: 2% 2% 2% 2%;
+}
+
+#profile_Toggle{
+    background: #989ca5; 
+    background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+    background: linear-gradient(to right, #5a7196, #3c404d);
+}
+
+/* #user_Info{
+} */
+
+#pic{
+    align-items: center;
+    margin: 5% 15% 0% 30%;
+    border-radius: 100px;
+}
+
+#profile{
+    color: white;
+    font-size:  16px;
+    margin-top: 10% ;
+}
+
+#logout{
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+hr{
+    color: white;
+    height: 10px;   
+}
+
+@media only screen and (max-width: 768px){
+    #login{
+        margin: 0;
+        padding: 0;
+        background: #373B44; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #223a61, #373B44);  
+    }
+    
+    #signup{
+        margin: 0;
+        padding: 0;
+        background: #373B44; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #223a61, #373B44); 
+    }
+    
+    #login_Heading{
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        font-size: 28px;
+        margin-top: 20%;
+        margin-bottom: 8%;
+    }
+    
+    #signup_Heading{
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        /* text-align: center; */
+        font-size: 32px;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+        padding: 0.5%;
+    }
+    
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #emailHelp{
+        font-size: 12px;
+        color: rgb(214, 210, 210) !important;
+    }    
+     
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: 5%;
+        margin-left:11%;
+        width: 100px;
+    }
+    
+    #login_signup_Link{
+        color: white;
+        width: 200px;
+        font-size: 12px;
+        margin-top: 5%;
+        margin-left:0%;
+    }
+    
+    #login_signup_Link :hover{
+        color: white;
+    }
+    
+    #link{
+        color: white;
+    }
+    
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    
+    #dashboard{
+        margin: 0;
+        padding: 0;
+        background: #373B44;  
+        background: -webkit-linear-gradient(to right, #223a61, #373B44);
+        background: linear-gradient(to right, #223a61, #373B44); 
+    }
+    
+    #dashboard_Heading{
+        font-size: 28px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  2%;
+    }
+    
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top:-1%;
+        width: 50px;
+    }
+    
+    #detail{
+        margin-top: 5%;
+        color: white;
+        font-size: 18px;
+    }
+    
+    #dashboard_Subheadings{
+        font-size: 24px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  1%;
+        margin-left: 2%;
+    }
+    
+    #cards_Inputs{
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+        padding: 0.5%;
+    }
+    
+    #create_show_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        width: 100px;
+    }
+    
+    /* #show_Cards{
+    } */
+    
+    /* #list{
+    } */
+
+    li{
+        list-style-type: none;
+        display: inline-flex;
+        margin: 5% 9% 5% 1%;
+    }
+    
+    #profile_Toggle{
+        background: #989ca5; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #5a7196, #3c404d);
+    }
+    
+    /* #user_Info{
+    } */
+    
+    #pic{
+        align-items: center;
+        margin: 5% 25% 5% 30%;
+        border-radius: 100px;
+    }
+    
+    #profile{
+        color: white;
+        font-size:  16px;
+        font-size: bolder;
+        margin-top: 10% ;
+        margin-left: 0.5%;
+    }
+    
+    #logout{
+        margin-top: 20px;
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+    
+    hr{
+        color: white;
+        height: 10px;   
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #login{
+        margin: 0;
+        padding: 0;
+        background: #373B44; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #223a61, #373B44); 
+    }
+    
+    #signup{
+        margin: 0;
+        padding: 0;
+        background: #373B44; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #223a61, #373B44); 
+    }
+    
+    #login_Heading{
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        /* text-align: center; */
+        font-size: 28px;
+        margin-top: 20%;
+        margin-bottom: 8%;
+    }
+    
+    #signup_Heading{
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+        padding: 0.5%;
+    }
+    
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #emailHelp{
+        font-size: 12px;
+        color: rgb(214, 210, 210) !important;
+    }    
+     
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: 5%;
+        margin-left:11%;
+        width: 100px;
+    }
+    
+    #login_signup_Link{
+        color: white;
+        width: 180px;
+        font-size: 12px;
+        margin-top: 5%;
+        margin-left:0%;
+    }
+    
+    #login_signup_Link :hover{
+        color: white;
+    }
+    
+    #link{
+        color: white;
+    }
+    
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    
+    #dashboard{
+        margin: 0;
+        padding: 0;
+        background: #373B44;  
+        background: -webkit-linear-gradient(to right, #223a61, #373B44);
+        background: linear-gradient(to right, #223a61, #373B44); 
+    }
+    
+    #dashboard_Heading{
+        font-size: 28px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  2%;
+    }
+    
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top:-1%;
+        width: 15%;
+    }
+    
+    #detail{
+        margin-top: 5%;
+        color: white;
+        font-size: 18px;
+    }
+    
+    #dashboard_Subheadings{
+        font-size: 24px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  1%;
+        margin-left: 2%;
+    }
+    
+    #cards_Inputs{
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+        padding: 0.5%;
+    }
+    
+    #create_show_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        width: 100px;
+    }
+       
+    /* #show_Cards{
+    } */
+    
+    /* #list{
+    } */
+
+    li{
+        list-style-type: none;
+        display: inline-flex;
+        margin: 5% 1% 5% -1%;
+    }
+    
+    #profile_Toggle{
+        background: #989ca5; 
+        background: -webkit-linear-gradient(to right, #223a61, #373B44); 
+        background: linear-gradient(to right, #5a7196, #3c404d);
+    }
+    
+    /* #user_Info{
+    } */
+    
+    #pic{
+        align-items: center;
+        margin: 5% 0% 5% 25%;
+        border-radius: 100px;
+    }
+    
+    #profile{
+        color: white;
+        font-size:  16px;
+        font-size: bolder;
+        margin-top: 10% ;
+        margin-left: 0.5%;
+    }
+    
+    #logout{
+        margin-top: 20px;
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+    
+    hr{
+        color: white;
+        height: 10px;   
+    }
+}
+
+/* @media only screen and (max-width: 375px){
+    #signup_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;  
+    }
+
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 25%;
+        padding: -2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: -3%;
+        margin-top: -4%;
+    }
+
+    small{
+        font-size: 12px;
+        color: rgb(216, 214, 214);
+    }
+
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-left: 12%;
+        margin-top: 6%;
+        width: 100px;
+    }
+
+    #login_signup_Link{
+        color: white;
+        width: 100px;
+        margin-top: 5%;
+        margin-left: -2%;
+        margin-right: 25%;
+        font-size: 12px;
+    }
+    
+    #link{
+        color: white;
+    }
+
+    #login_signup_Link :hover{
+        color: white;
+    }
+
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 5%;
+        font-size: 12px;
+    }
+
+    #login_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+ 
+    #dashboard_Heading{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  5%;
+    }
+
+    #detail{
+        color: white;
+        font-size: 50px;
+    }
+
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: -3%;
+        width: 50px;
+    }
+
+    #dashboard_Subheadings{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+
+    #cards_Inputs{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 4px;
+    }
+
+    li{
+        display: inline-flex;
+        margin: -10% -10% -10% -10%;
+    }
+    
+    #pic{
+        align-items: center;
+        border-radius: 100px;
+        margin-left: 85px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #signup_Heading{
+        margin-top: 5%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 25%;
+        padding: -2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: -1%;
+        margin-top: -0.5%; 
+    }
+
+    small{
+        font-size: 10px;
+        color: rgb(216, 214, 214) !important;
+    }
+
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-left: 11%;
+        margin-top: 2%;
+        width: 100px;
+    }
+
+    #login_signup_Link{
+        color: white ;
+        width: 100px;
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 25%;
+        font-size: 12px;
+    }
+    
+    #link{
+        color: white;
+    }
+
+    #login_signup_Link :hover{
+        color: white;
+    }
+   
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 2%;
+        font-size: 12px;
+    }
+
+    #login_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    #detail{
+        color: white;
+        font-size: 32px;
+    }
+
+    #dashboard_Heading{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  3%;
+    }
+
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: -1%;
+        width: 50px;
+    }
+
+    #dashboard_Subheadings{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top: -3%;
+        margin-left: 1%;
+    }
+
+    #cards_Inputs{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 4px;
+    }
+
+    #list{
+        margin-left: 2%;
+    }
+
+    li{
+        display: inline-flex;
+        margin: 3.7% 3.7% 3.7% 3.7%;
+    }
+
+    #pic{
+        align-items: center;
+        border-radius: 100px;
+        margin-left: 105px;
+    }
+}
+
+@media only screen and (max-width: 1024px){ 
+    #signup_Heading{
+        margin-top: 5%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;  
+    }
+
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 25%;
+        padding: -2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: -1%;
+        margin-top: -0.5%;
+    }
+
+    small{
+        font-size: 10px;
+        color: rgb(216, 214, 214) !important;
+        }
+
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-left: 11%;
+        margin-top: 2%;
+        width: 100px;
+    }
+
+    #login_signup_Link{
+        color: white ;
+        width: 100px;
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 25%;
+        font-size: 12px;
+    }
+    
+    #link{
+        color: white;
+    }
+
+    #login_signup_Link :hover{
+        color: white;
+    }
+    
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 2%;
+        font-size: 12px;
+    }
+
+    #login_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    #dashboard_Heading{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  3%;
+    }
+
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: -1%;
+        width: 50px;
+    }
+
+    #dashboard_Subheadings{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top: -3%;
+        margin-left: 1%;
+    }
+
+    #cards_Inputs{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 4px;
+    }
+
+    #list{
+        margin-left: 2%;
+    }
+
+    li{
+        display: inline-flex;
+        margin: 1% 1% 1% 1%;
+    }
+   
+    #pic{
+        align-items: center;
+        border-radius: 100px;
+        margin-left: 105px;
+    }
+
+    #detail{
+        color: white;
+        font-size: 48px;
+    }
+}
+ */
+
+
+/* @media only screen and (max-width: 480px){ 
+    #signup_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    #user_inputs_Labels{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left; 
+    }
+
+    #user_Inputs{
+        width: 80%;
+        margin: 0% 25%;
+        padding: -2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: -3%;
+        margin-top: -3%;
+    }
+
+    small{
+        font-size: 12px;
+        color: rgb(216, 214, 214);
+    }
+
+    #login_signup_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-left: 12%;
+        margin-top: 6%;
+        width: 100px;
+    }
+
+    #login_signup_Link{
+        color: white;
+        width: 100px;
+        margin-top: 5%;
+        margin-left: -2%;
+        margin-right: 25%;
+        font-size: 12px;
+    }
+    
+    #link{
+        color: white;
+    }
+
+    #login_signup_Link :hover{
+        color: white;
+    }
+
+    #message{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: -10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 5%;
+        font-size: 12px;
+    }
+
+    #login_Heading{
+        margin-top: 9%;
+        font-size: 32px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    #dashboard_Heading{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top:  5%;
+    }
+
+    #profile_Button{
+        color: white;
+        background-color: rgba(10, 7, 51, 0.973);
+        margin-top: -3%;
+        width: 50px;
+    }
+
+    #dashboard_Subheadings{
+        font-size: 40px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: white;
+        font-weight: bolder;
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+
+    #cards_Inputs{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 4px;
+    }
+
+    #list{
+        list-style-type: none;
+        list-style-position: initial;
+        
+    }
+
+    li{
+        display: inline-flex;
+        margin: 13% 13% 13% 13%;
+       
+    }
+
+    #detail{
+        color: white;
+    }
+
+    #pic{
+        align-items: center;
+        border-radius: 100px;
+        margin-left: 105px;
+    }
+} */
+
+
+
+
+
